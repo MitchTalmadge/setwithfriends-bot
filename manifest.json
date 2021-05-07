@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://setwithfriends.com/game/*"
+                "https://setwithfriends.com/*"
             ],
             "js": [
                 "dist/js/vendor.js",

@@ -6,7 +6,7 @@ import * as Combinatorics from "js-combinatorics"
 console.log("Set with Friends Bot Activated")
 
 setInterval(() => {
-    const board = jquery("div.jss24 > div.MuiPaper-elevation1");
+    const board = jquery("div.MuiGrid-grid-sm-8 div.MuiPaper-elevation1");
     if (!board) {
         console.error("Could not find board.")
         return;
