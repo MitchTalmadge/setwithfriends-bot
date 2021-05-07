@@ -25,6 +25,7 @@ setInterval(() => {
     for (const tileCombo of tileCombos) {
         if (isMatch(tileCombo[0], tileCombo[1], tileCombo[2])) {
             tileCombo.forEach(t => t.node.style.backgroundColor = "#ffff00");
+            tileCombo.forEach((t, ti) => setTimeout(() => (t.node.firstElementChild as HTMLElement).click(), 100 * ti));
             return;
         }
     }
