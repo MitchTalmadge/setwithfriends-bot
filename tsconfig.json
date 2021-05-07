@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "sourceRoot": "src",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "jsx": "react",
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

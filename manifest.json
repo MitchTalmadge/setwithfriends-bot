@@ -1,0 +1,9 @@
+{
+    "name": "SetWithFriends Bot",
+    "description": "To make your friends think you have actual skills",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "./dist/popup.html"
+    }
+}
