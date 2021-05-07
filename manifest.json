@@ -3,7 +3,15 @@
     "description": "To make your friends think you have actual skills",
     "version": "1.0",
     "manifest_version": 3,
-    "action": {
-        "default_popup": "./dist/popup.html"
-    }
+    "content_scripts": [
+        {
+            "matches": [
+                "https://setwithfriends.com/game/*"
+            ],
+            "js": [
+                "dist/js/vendor.js",
+                "dist/js/content.js"
+            ]
+        }
+    ]
 }

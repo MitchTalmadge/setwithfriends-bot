@@ -8,11 +8,15 @@
         "build": "webpack --config webpack/webpack.prod.js"
     },
     "dependencies": {
+        "jquery": "^3.6.0",
+        "js-combinatorics": "^1.4.5",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     },
     "devDependencies": {
         "@types/chrome": "^0.0.137",
+        "@types/jquery": "^3.5.5",
+        "@types/lodash": "^4.14.168",
         "@types/react": "^17.0.5",
         "@types/react-dom": "^17.0.3",
         "copy-webpack-plugin": "^6.1.0",
